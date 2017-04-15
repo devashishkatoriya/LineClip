@@ -64,13 +64,12 @@ int main()
         {
             int x3,y3,x4,y4;
             float m;
+            //For x1
             if(x1<xl)
             {
                 x3 = xl;
                 m = (y1-y2)/(x1-x2);
                 y3 = m*(x3-x1) + y1;
-
-
             }
             else if(x1>xh)
             {
@@ -119,6 +118,7 @@ int main()
                 }
             }
 
+            //For x2
             if(x2<xl)
             {
                 x4 = xl;
@@ -189,7 +189,9 @@ int main()
     return 0;
 }
 
+//Window - 100 100 400 400
 //Sample Points
 //  50 200 450 200
 //  50 50 150 150
 //  50 50 450 450
+//  50 50 50 150
